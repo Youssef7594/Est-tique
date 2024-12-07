@@ -4,6 +4,7 @@ nav{
     display: flex;
     justify-content: space-between;
     border-bottom: solid;
+    
 
     h1 {
         
@@ -29,4 +30,14 @@ nav{
             font-size: 25px;
         }
     }
+}
+
+
+.premier–plan{
+    height: 400px;
+    width: 100%;
+    background-image: url(../font/image/salon-beaute-luxe-interieur-moderne-magasin-services-ongles-manucure-generatif-ai-studio-branche-propre-salon-beaute-vide-magasin-concept-glamour-manucure-mode_788189-11067.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
 }
