@@ -19,7 +19,7 @@ nav{
         a{
             text-decoration: none;
             color: #FFB598 ;
-            font-size: 50px;
+            font-size: 40px;
         }
     }   
 
@@ -31,11 +31,16 @@ nav{
             margin-left: 25px;
             margin-right: 60px;
             list-style: none;
-            font-size: 25px;
+            font-size: 20px;
 
             a{
                 text-decoration: none;
                 color: #FFB598;
+            }
+
+            a:hover{
+                background-color: #916d62;
+                
             }
         }
     }
@@ -58,6 +63,7 @@ nav{
 /* Toute la partie prestation pour les cheveux, ongle....*/
 
 #prestation{
+    padding-top: 35px;
 
 
     h2{
@@ -65,11 +71,12 @@ nav{
         margin-top: 50px;
         margin-left: 10px;
         font-size: 40px;
+        text-align: center;
     }
     
     h3{
         color: #FFB598;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     img{
@@ -176,6 +183,7 @@ nav{
 
 #horaire{
     text-align: center;
+    padding-top: 20px;
     
     h2{
             color: #FFB598;
@@ -198,4 +206,39 @@ nav{
         margin-top: 100px;
     }
 
+}
+
+
+/* Le footer */
+
+.bas-de-page{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 200px;
+    background-image: url(../font/image/nohtockphoto-2010076751-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+    .lesreseaux{
+        margin-top: 100px;
+        margin-left: 40px;
+
+        a{
+            margin-right: 15px;
+        }
+        
+    }
+
+    .lesmentions{
+        margin-top: 100px;
+        margin-right: 40px;
+        
+        a{
+            margin-left: 15px;
+        }
+
+    }
 }
